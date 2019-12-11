@@ -1,0 +1,207 @@
+html {
+    font-family: 'Gill Sans';
+/***This is an example of inheritance because all the pages inherit this font as it' base.***/
+    background-color: whitesmoke;
+}
+
+h1 {
+    padding-top:100px;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    /***The font family 'Marriweather' overwrites the basic font which is the Open Sans font***/
+    font-size:50px;
+    text-shadow: 2px 3px #2c3c54;
+    text-align:center;
+}
+
+body {
+    background-color: whitesmoke;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+
+.container {
+    width: 99%;
+    margin: auto;
+    border-left: none;
+    background: #2e84a2;
+}
+
+table {
+    margin: auto;
+}
+
+.nav {
+    background-color:white;
+    height: 40px;
+    position: sticky;
+    top: 0;
+}
+
+.nav ul {
+    margin: 0%;
+}
+
+.nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 10px 110px 110px;
+}
+
+.nav ul li a:hover {
+    background:#2e84a2;
+}    
+
+.nav ul li a:active{
+    color: #C4B157;
+}
+
+.nav ul li a {
+    color: #2c3c54;
+}
+
+/**********************************Index Page********************************/
+.main1 {
+    background-image: url(../img/belinda-fewings-EpTMT_EnjUs-unsplash.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: 1600px;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: none;
+}
+
+
+.main2 h2 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 50px;
+    color: #52bdd1;
+    text-shadow: #231f20 2px 2px;
+    background-color:white;
+    text-align: center;
+    padding: 20px 20px;
+}
+.main3 {
+    color: white;
+    text-align:center;
+}
+
+.main3 table {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.main3 table tr td {
+    font-size: 30px;
+}
+
+.main3 table tr td a:link {
+    text-decoration: none;
+}
+.main3 table tr td h4 {
+    color:whitesmoke;
+}
+
+.main3 table tr td img {
+    border-style: line;
+    border-radius: 10px;
+    border-color: whitesmoke;
+    background-color: white;
+    padding:10px;
+}
+.main4 {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main4 h1 {
+    font-family: 'Gill Sans', 'sans serif';
+    font-size: 40px;
+    text-align: center;
+    color: #2c3c54; 
+    padding-bottom: 40px;
+    padding-top: 30px;
+    text-decoration:none;
+    text-shadow: none;
+}
+
+.main4 table tr th {
+    font-size: 20px;
+    color:#2c3c54;
+    padding-right: 150px;
+    padding-left: 150px;
+    text-align:center;
+    text-decoration: underline;
+}
+
+.main4 table tr td {
+    text-align: center;
+}
+.main4 table tr th img {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #52bdd1;
+    background-color: #95d8e4;
+    padding: 5px;
+}
+
+/**********************************Condo Suites Page********************************/
+
+.suites {
+    background-color:white;
+    padding-top: 50px;
+}
+
+.suites h3 {
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: #2c3c54;
+    text-align:left;
+}
+
+.suites table {
+    padding-bottom:60px;
+}
+
+.suites table tr th {
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+
+.suites table tr td {
+    padding-right: 60px;
+    padding-left: 60px;
+    text-align: center;
+    font-size: 20px;
+    color:#52bdd1;
+}
+
+.suites table tr td:hover {
+    color: goldenrod;
+    background-color:#95d8e4;
+}
+
+.suites table tr td a button:hover{
+    color:goldenrod;
+    background-color: none;
+}
+
+.main5 {
+    background-image: url(../img/sergio-souza-tMymW6o7YRM-unsplash.jpg);
+    background-repeat: no-repeat;
+    height:700px;
+    background-size: 1600px;
+    align-content: center;
+}
+
+/**********************************Footer********************************/
+.footer {
+    color: whitesmoke;
+    height: 15px;
+    padding: 12px;
+    font-size: 15px;
+    text-align:center;
+}
